@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("img/your_verse_subhead_small.png");
+  background-position: 0 -700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style-type: none;
+}
+
+#header-navbar {
+  max-width: 980;
+  margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  font-size: 0.9rem;
+  justify-content: center;
+  /* align-items: center; */
+}
+.header-nav-item {
+  text-align: center;
+  line-height: 30px;
+  width: 102px;
+  height: 32px;
+  color: #fff;
+  background-image: linear-gradient(
+    to bottom,
+    #777,
+    #777 50%,
+    #666 50%,
+    #666 70%,
+    #777
+  );
+  border: solid 1px #666;
+  /* cursor: pointer; */
+  transition: all, ease-in, 0.3s;
+}
+.header-nav-item.hovering:hover {
+  background-image: linear-gradient(
+    to bottom,
+    #555,
+    #555 50%,
+    #444 50%,
+    #444 70%,
+    #555
+  );
+}
+li input {
+  width: 70%;
+  background-color: transparent;
+  border: solid 2px #666;
+  border-radius: 10px;
+}
+
+article {
+  margin-top: 30px;
+  width: 100vw;
+}
+article div {
+  text-align: center;
+}
+
+#watch-container {
+  height: 35px;
+  overflow: hidden;
+  margin-top: 1rem;
+  margin-bottom: 9rem;
+}
+#watch-container :hover {
+  transform: translateY(-32px);
+}
+.container {
+  display: flex;
+}
+.container > a {
+  width: 25%;
+}
+
+footer {
+  font-size: 0.6rem;
+  font-weight: 300;
+  color: #666;
+  margin-top: 0.5rem;
+  line-height: 2rem;
+}
+footer > div {
+  max-width: 980px;
+  margin: auto;
+}
+footer a {
+  color: #28f;
+}
+#site-map {
+  display: flex;
+}
+#shop {
+  flex-grow: 1;
+}
+#footer-nav > a {
+  padding: 0 0.2rem;
+  border-right: solid 1px #aaa;
+}
+#footer-nav > a:last-child {
+  border: none;
+}
+#copyright > a {
+  padding: 0 0.2rem;
+  border-right: solid 1px #aaa;
+}
+#copyright > a:last-child {
+  border: none;
+}
